@@ -1,0 +1,12 @@
+{
+  "name": "a-form-input",
+  "desciption": "Polymer element that mimics a native <form> input",
+  "repository": "https://github.com/eee-c/a-form-input",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-jasmine": "^0.2.2"
+  }
+}

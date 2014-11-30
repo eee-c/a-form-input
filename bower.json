@@ -1,0 +1,24 @@
+{
+  "name": "a-form-input",
+  "version": "0.0.1",
+  "authors": [
+    "Chris Strom <github@eeecomputes.com>"
+  ],
+  "description": "Polymer element that mimics a native <form> input.",
+  "main": "a_form_input.js",
+  "keywords": [
+    "polymer"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/eee-c/a-form-input",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer"
+  }
+}

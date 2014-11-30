@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Smoke Test</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+    <!-- 1. Load Polymer before any code that touches the DOM. -->
+    <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+    <!-- 2. Load component(s) -->
+    <link rel="import" href="test/x-double.html">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Smoke Test: a-form-input</h1>
+
+      <form>
+        <x-double name="doubled" in=5></x-double>
+      </form>
+    </div>
+  </body>
+</html>
