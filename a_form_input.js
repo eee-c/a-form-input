@@ -11,6 +11,10 @@ Polymer('a-form-input', {
       this.parentElement.appendChild(this.lightInput);
     },
 
+    nameChanged: function(){
+      this.lightInput.name = this.name;
+    },
+
     valueChanged: function(){
       this.lightInput.value = this.value;
     }
