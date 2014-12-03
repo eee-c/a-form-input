@@ -1,9 +1,12 @@
 <link rel="import" href="../bower_components/polymer/polymer.html">
-<link rel="import" href="../a-form-input.html">
+<link rel="import" href="../bower_components/a-form-input/a-form-input.html">
 <polymer-element name="x-double" extends="a-form-input" attributes="in">
   <template></template>
   <script>
     Polymer("x-double", {
+      publish: {
+        in: {value: 0, reflect: true},
+      },
       attached: function(){
         this.super();
         this.inChanged();

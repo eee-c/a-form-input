@@ -17,9 +17,16 @@ module.exports = function(config) {
       'bower_components/webcomponentsjs/webcomponents.js',
       'test/PolymerSetup.js',
 
-      {pattern: 'bower_components/**', included: false, served: true},
-      {pattern: '*.html', included: false, served: true},
-      {pattern: '*.js', included: false, served: true},
+      {
+        pattern: 'bower_components/!(a-form-input)/**',
+        included: false,
+        served: true},
+      {
+        pattern: 'bower_components/a-form-input/*.+(html|js)',
+        included: false,
+        served: true
+      },
+
       {pattern: 'test/*.html', included: false, served: true},
       'test/*Spec.js'
     ],
